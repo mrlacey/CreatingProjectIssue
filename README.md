@@ -9,10 +9,10 @@ In the image below, you can see that the custom Windows Forms dialog (containing
 
 ## Repro steps
 
-1. Open project in Visual Studio 2022.
-2. Set the **Start up Project** to be `MyProjectWizard`
+1. Open the project in Visual Studio 2022.
+2. Set the **Startup Project** to be `MyProjectWizard`
 3. Debug in the **Current** release version (v17.0.2)
-4. Create a new project with the new template (search "myprojecttemplate" to find it) and see that the custom dialog is not obscurred. (The "Creating project..." dialog may not even be visible.)
+4. Create a new project with the new template (search "myprojecttemplate" to find it) and see that the custom dialog is not obscured. (The "Creating project..." dialog may not even be visible.)
 5. Close Experimental instance.
 6. Debug the project in the **Preview** version of VS2022 (v17.10 Preview 1.1)
 7. Create a new project with the new template and see that the "Creating project..." dialog is always on top and covers the custom dialog. (Try moving the two dialogs to see that one always obscures the other.)
