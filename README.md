@@ -15,7 +15,7 @@ In the image below, you can see that the custom Windows Forms dialog (containing
 4. Create a new project with the new template (search "myprojecttemplate" to find it) and see that the custom dialog is not obscurred. (The "Creating project..." dialog may not even be visible.)
 5. Close Experimental instance.
 6. Debug the project in the **Preview** version of VS2022 (v17.10 Preview 1.1)
-7. Create a new project with the new template and see that the "Creating project..." dialog is always on top and covers the custom dialog. (Try .
+7. Create a new project with the new template and see that the "Creating project..." dialog is always on top and covers the custom dialog. (Try moving the two dialogs to see that one always obscures the other.)
 
 This repro is based on the sample from the offical docs (https://docs.microsoft.com/en-us/visualstudio/extensibility/how-to-use-wizards-with-project-templates?view=vs-2022) but modified to work with VS2022.
 
