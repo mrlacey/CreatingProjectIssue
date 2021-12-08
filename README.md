@@ -1,6 +1,6 @@
 # CreatingProjectIssue
 
-This repo contains a repro project demonstrating the issue reported with Visual Studio 2022 preview version.
+This repo contains a repro project demonstrating [the issue reported with Visual Studio 2022 preview version](https://developercommunity.visualstudio.com/t/creating-project-dialog-is-always-on-top-in-vs2022/1608136).  
 The problem appears to be that the "Creating project ..." dialog is set as a topmost window and so appears in front of other (custom) dialogs displayed as part of the project creation process.
 
 In the image below, you can see that the custom Windows Forms dialog (containing the submit button) is behind the "Creating project ..." dialog and can't be brought in front of it.
